@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C25889B83DD5907CD99D3B /* Pods_GIFLoadingDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E7EF39CF2C82452B8D4ED1 /* Pods_GIFLoadingDemoUITests.framework */; };
+		711712621ED7CA1600148B7F /* UIImage+GIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 711712611ED7CA1600148B7F /* UIImage+GIFImage.m */; };
+		711712651ED7CC5800148B7F /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 711712631ED7CC5800148B7F /* loading.gif */; };
+		711712661ED7CC5800148B7F /* loading2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 711712641ED7CC5800148B7F /* loading2.gif */; };
+		71EA11D91ED6E64200CC62A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA11D81ED6E64200CC62A5 /* main.m */; };
+		71EA11DC1ED6E64200CC62A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA11DB1ED6E64200CC62A5 /* AppDelegate.m */; };
+		71EA11DF1ED6E64200CC62A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA11DE1ED6E64200CC62A5 /* ViewController.m */; };
+		71EA11E21ED6E64200CC62A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EA11E01ED6E64200CC62A5 /* Main.storyboard */; };
+		71EA11E41ED6E64200CC62A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EA11E31ED6E64200CC62A5 /* Assets.xcassets */; };
+		71EA11E71ED6E64200CC62A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EA11E51ED6E64200CC62A5 /* LaunchScreen.storyboard */; };
+		71EA11F21ED6E64300CC62A5 /* GIFLoadingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA11F11ED6E64300CC62A5 /* GIFLoadingDemoTests.m */; };
+		71EA11FD1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA11FC1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m */; };
+		9BE8904EF4315F04FA1F116F /* Pods_GIFLoadingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF2CB71B0A21D968BEFCF7B /* Pods_GIFLoadingDemo.framework */; };
+		D15CAFFA9DAB3EB87E77ACBE /* Pods_GIFLoadingDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8FA8C689CC74637C3EB85F /* Pods_GIFLoadingDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71EA11EE1ED6E64300CC62A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71EA11CC1ED6E64200CC62A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71EA11D31ED6E64200CC62A5;
+			remoteInfo = GIFLoadingDemo;
+		};
+		71EA11F91ED6E64300CC62A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71EA11CC1ED6E64200CC62A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71EA11D31ED6E64200CC62A5;
+			remoteInfo = GIFLoadingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046AEEDC4F634E8D4E412241 /* Pods-GIFLoadingDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		711712601ED7CA1600148B7F /* UIImage+GIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIFImage.h"; sourceTree = "<group>"; };
+		711712611ED7CA1600148B7F /* UIImage+GIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIFImage.m"; sourceTree = "<group>"; };
+		711712631ED7CC5800148B7F /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		711712641ED7CC5800148B7F /* loading2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading2.gif; sourceTree = "<group>"; };
+		711712681ED7D22600148B7F /* SVProgressHUD_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD_Extension.h; sourceTree = "<group>"; };
+		71EA11D41ED6E64200CC62A5 /* GIFLoadingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIFLoadingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EA11D81ED6E64200CC62A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71EA11DA1ED6E64200CC62A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71EA11DB1ED6E64200CC62A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71EA11DD1ED6E64200CC62A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71EA11DE1ED6E64200CC62A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71EA11E11ED6E64200CC62A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71EA11E31ED6E64200CC62A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71EA11E61ED6E64200CC62A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71EA11E81ED6E64200CC62A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71EA11ED1ED6E64300CC62A5 /* GIFLoadingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFLoadingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EA11F11ED6E64300CC62A5 /* GIFLoadingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFLoadingDemoTests.m; sourceTree = "<group>"; };
+		71EA11F31ED6E64300CC62A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71EA11F81ED6E64300CC62A5 /* GIFLoadingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFLoadingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EA11FC1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFLoadingDemoUITests.m; sourceTree = "<group>"; };
+		71EA11FE1ED6E64300CC62A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF2CB71B0A21D968BEFCF7B /* Pods_GIFLoadingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFLoadingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5910D1FF5915A03AB765EB /* Pods-GIFLoadingDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE7947A3A6E2F4A0D4E6E7C /* Pods-GIFLoadingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemo/Pods-GIFLoadingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B11726296BBDE16E2790B99B /* Pods-GIFLoadingDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemoTests/Pods-GIFLoadingDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6E7EF39CF2C82452B8D4ED1 /* Pods_GIFLoadingDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFLoadingDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8FA8C689CC74637C3EB85F /* Pods_GIFLoadingDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFLoadingDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CE1235174A73320C276EA4 /* Pods-GIFLoadingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemoTests/Pods-GIFLoadingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3FBC55A5FE725D9C792FE6F /* Pods-GIFLoadingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemo/Pods-GIFLoadingDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71EA11D11ED6E64200CC62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE8904EF4315F04FA1F116F /* Pods_GIFLoadingDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EA11EA1ED6E64300CC62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15CAFFA9DAB3EB87E77ACBE /* Pods_GIFLoadingDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EA11F51ED6E64300CC62A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C25889B83DD5907CD99D3B /* Pods_GIFLoadingDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7117125E1ED7C9E800148B7F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				711712601ED7CA1600148B7F /* UIImage+GIFImage.h */,
+				711712611ED7CA1600148B7F /* UIImage+GIFImage.m */,
+				711712681ED7D22600148B7F /* SVProgressHUD_Extension.h */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		71EA11CB1ED6E64200CC62A5 = {
+			isa = PBXGroup;
+			children = (
+				71EA11D61ED6E64200CC62A5 /* GIFLoadingDemo */,
+				71EA11F01ED6E64300CC62A5 /* GIFLoadingDemoTests */,
+				71EA11FB1ED6E64300CC62A5 /* GIFLoadingDemoUITests */,
+				71EA11D51ED6E64200CC62A5 /* Products */,
+				D3DFB69FFD16D278166FC969 /* Pods */,
+				BB573803D525938CB3585959 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71EA11D51ED6E64200CC62A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71EA11D41ED6E64200CC62A5 /* GIFLoadingDemo.app */,
+				71EA11ED1ED6E64300CC62A5 /* GIFLoadingDemoTests.xctest */,
+				71EA11F81ED6E64300CC62A5 /* GIFLoadingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71EA11D61ED6E64200CC62A5 /* GIFLoadingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7117125E1ED7C9E800148B7F /* Category */,
+				71EA11DA1ED6E64200CC62A5 /* AppDelegate.h */,
+				71EA11DB1ED6E64200CC62A5 /* AppDelegate.m */,
+				71EA11DD1ED6E64200CC62A5 /* ViewController.h */,
+				71EA11DE1ED6E64200CC62A5 /* ViewController.m */,
+				71EA11E01ED6E64200CC62A5 /* Main.storyboard */,
+				71EA11D71ED6E64200CC62A5 /* Supporting Files */,
+			);
+			path = GIFLoadingDemo;
+			sourceTree = "<group>";
+		};
+		71EA11D71ED6E64200CC62A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711712631ED7CC5800148B7F /* loading.gif */,
+				711712641ED7CC5800148B7F /* loading2.gif */,
+				71EA11E31ED6E64200CC62A5 /* Assets.xcassets */,
+				71EA11E51ED6E64200CC62A5 /* LaunchScreen.storyboard */,
+				71EA11E81ED6E64200CC62A5 /* Info.plist */,
+				71EA11D81ED6E64200CC62A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71EA11F01ED6E64300CC62A5 /* GIFLoadingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				71EA11F11ED6E64300CC62A5 /* GIFLoadingDemoTests.m */,
+				71EA11F31ED6E64300CC62A5 /* Info.plist */,
+			);
+			path = GIFLoadingDemoTests;
+			sourceTree = "<group>";
+		};
+		71EA11FB1ED6E64300CC62A5 /* GIFLoadingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71EA11FC1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m */,
+				71EA11FE1ED6E64300CC62A5 /* Info.plist */,
+			);
+			path = GIFLoadingDemoUITests;
+			sourceTree = "<group>";
+		};
+		BB573803D525938CB3585959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AF2CB71B0A21D968BEFCF7B /* Pods_GIFLoadingDemo.framework */,
+				DE8FA8C689CC74637C3EB85F /* Pods_GIFLoadingDemoTests.framework */,
+				D6E7EF39CF2C82452B8D4ED1 /* Pods_GIFLoadingDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3DFB69FFD16D278166FC969 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7947A3A6E2F4A0D4E6E7C /* Pods-GIFLoadingDemo.debug.xcconfig */,
+				F3FBC55A5FE725D9C792FE6F /* Pods-GIFLoadingDemo.release.xcconfig */,
+				E2CE1235174A73320C276EA4 /* Pods-GIFLoadingDemoTests.debug.xcconfig */,
+				B11726296BBDE16E2790B99B /* Pods-GIFLoadingDemoTests.release.xcconfig */,
+				046AEEDC4F634E8D4E412241 /* Pods-GIFLoadingDemoUITests.debug.xcconfig */,
+				9C5910D1FF5915A03AB765EB /* Pods-GIFLoadingDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71EA11D31ED6E64200CC62A5 /* GIFLoadingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71EA12011ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemo" */;
+			buildPhases = (
+				64AF72C7F978DD41BF52C75E /* [CP] Check Pods Manifest.lock */,
+				71EA11D01ED6E64200CC62A5 /* Sources */,
+				71EA11D11ED6E64200CC62A5 /* Frameworks */,
+				71EA11D21ED6E64200CC62A5 /* Resources */,
+				4425501AC3FECBA52E377776 /* [CP] Embed Pods Frameworks */,
+				DEBD9A56E19AF3C675CED996 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIFLoadingDemo;
+			productName = GIFLoadingDemo;
+			productReference = 71EA11D41ED6E64200CC62A5 /* GIFLoadingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71EA11EC1ED6E64300CC62A5 /* GIFLoadingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71EA12041ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoTests" */;
+			buildPhases = (
+				BDD649E8081581CF8F3BE600 /* [CP] Check Pods Manifest.lock */,
+				71EA11E91ED6E64300CC62A5 /* Sources */,
+				71EA11EA1ED6E64300CC62A5 /* Frameworks */,
+				71EA11EB1ED6E64300CC62A5 /* Resources */,
+				1DD943F7545598603C5DEBA4 /* [CP] Embed Pods Frameworks */,
+				430305DA6610BD7E4042574A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71EA11EF1ED6E64300CC62A5 /* PBXTargetDependency */,
+			);
+			name = GIFLoadingDemoTests;
+			productName = GIFLoadingDemoTests;
+			productReference = 71EA11ED1ED6E64300CC62A5 /* GIFLoadingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71EA11F71ED6E64300CC62A5 /* GIFLoadingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71EA12071ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoUITests" */;
+			buildPhases = (
+				F151ECA469D6AEB7D6AE6C7A /* [CP] Check Pods Manifest.lock */,
+				71EA11F41ED6E64300CC62A5 /* Sources */,
+				71EA11F51ED6E64300CC62A5 /* Frameworks */,
+				71EA11F61ED6E64300CC62A5 /* Resources */,
+				1EFAF3F4C55A0D871D11F868 /* [CP] Embed Pods Frameworks */,
+				4A199CCA97BAC0CA43CC97B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71EA11FA1ED6E64300CC62A5 /* PBXTargetDependency */,
+			);
+			name = GIFLoadingDemoUITests;
+			productName = GIFLoadingDemoUITests;
+			productReference = 71EA11F81ED6E64300CC62A5 /* GIFLoadingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71EA11CC1ED6E64200CC62A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = worldunion;
+				TargetAttributes = {
+					71EA11D31ED6E64200CC62A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W8RTX3KJ4E;
+						ProvisioningStyle = Automatic;
+					};
+					71EA11EC1ED6E64300CC62A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W8RTX3KJ4E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71EA11D31ED6E64200CC62A5;
+					};
+					71EA11F71ED6E64300CC62A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W8RTX3KJ4E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71EA11D31ED6E64200CC62A5;
+					};
+				};
+			};
+			buildConfigurationList = 71EA11CF1ED6E64200CC62A5 /* Build configuration list for PBXProject "GIFLoadingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71EA11CB1ED6E64200CC62A5;
+			productRefGroup = 71EA11D51ED6E64200CC62A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71EA11D31ED6E64200CC62A5 /* GIFLoadingDemo */,
+				71EA11EC1ED6E64300CC62A5 /* GIFLoadingDemoTests */,
+				71EA11F71ED6E64300CC62A5 /* GIFLoadingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71EA11D21ED6E64200CC62A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EA11E71ED6E64200CC62A5 /* LaunchScreen.storyboard in Resources */,
+				711712651ED7CC5800148B7F /* loading.gif in Resources */,
+				71EA11E41ED6E64200CC62A5 /* Assets.xcassets in Resources */,
+				711712661ED7CC5800148B7F /* loading2.gif in Resources */,
+				71EA11E21ED6E64200CC62A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EA11EB1ED6E64300CC62A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EA11F61ED6E64300CC62A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DD943F7545598603C5DEBA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoTests/Pods-GIFLoadingDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EFAF3F4C55A0D871D11F868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		430305DA6610BD7E4042574A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoTests/Pods-GIFLoadingDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4425501AC3FECBA52E377776 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemo/Pods-GIFLoadingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A199CCA97BAC0CA43CC97B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64AF72C7F978DD41BF52C75E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD649E8081581CF8F3BE600 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBD9A56E19AF3C675CED996 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemo/Pods-GIFLoadingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F151ECA469D6AEB7D6AE6C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71EA11D01ED6E64200CC62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EA11DF1ED6E64200CC62A5 /* ViewController.m in Sources */,
+				71EA11DC1ED6E64200CC62A5 /* AppDelegate.m in Sources */,
+				711712621ED7CA1600148B7F /* UIImage+GIFImage.m in Sources */,
+				71EA11D91ED6E64200CC62A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EA11E91ED6E64300CC62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EA11F21ED6E64300CC62A5 /* GIFLoadingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EA11F41ED6E64300CC62A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EA11FD1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71EA11EF1ED6E64300CC62A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71EA11D31ED6E64200CC62A5 /* GIFLoadingDemo */;
+			targetProxy = 71EA11EE1ED6E64300CC62A5 /* PBXContainerItemProxy */;
+		};
+		71EA11FA1ED6E64300CC62A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71EA11D31ED6E64200CC62A5 /* GIFLoadingDemo */;
+			targetProxy = 71EA11F91ED6E64300CC62A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71EA11E01ED6E64200CC62A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71EA11E11ED6E64200CC62A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71EA11E51ED6E64200CC62A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71EA11E61ED6E64200CC62A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71EA11FF1ED6E64300CC62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71EA12001ED6E64300CC62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71EA12021ED6E64300CC62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE7947A3A6E2F4A0D4E6E7C /* Pods-GIFLoadingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8RTX3KJ4E;
+				INFOPLIST_FILE = GIFLoadingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		71EA12031ED6E64300CC62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FBC55A5FE725D9C792FE6F /* Pods-GIFLoadingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8RTX3KJ4E;
+				INFOPLIST_FILE = GIFLoadingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		71EA12051ED6E64300CC62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CE1235174A73320C276EA4 /* Pods-GIFLoadingDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W8RTX3KJ4E;
+				INFOPLIST_FILE = GIFLoadingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFLoadingDemo.app/GIFLoadingDemo";
+			};
+			name = Debug;
+		};
+		71EA12061ED6E64300CC62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11726296BBDE16E2790B99B /* Pods-GIFLoadingDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W8RTX3KJ4E;
+				INFOPLIST_FILE = GIFLoadingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFLoadingDemo.app/GIFLoadingDemo";
+			};
+			name = Release;
+		};
+		71EA12081ED6E64300CC62A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046AEEDC4F634E8D4E412241 /* Pods-GIFLoadingDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W8RTX3KJ4E;
+				INFOPLIST_FILE = GIFLoadingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GIFLoadingDemo;
+			};
+			name = Debug;
+		};
+		71EA12091ED6E64300CC62A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5910D1FF5915A03AB765EB /* Pods-GIFLoadingDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W8RTX3KJ4E;
+				INFOPLIST_FILE = GIFLoadingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GIFLoadingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71EA11CF1ED6E64200CC62A5 /* Build configuration list for PBXProject "GIFLoadingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EA11FF1ED6E64300CC62A5 /* Debug */,
+				71EA12001ED6E64300CC62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71EA12011ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EA12021ED6E64300CC62A5 /* Debug */,
+				71EA12031ED6E64300CC62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71EA12041ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EA12051ED6E64300CC62A5 /* Debug */,
+				71EA12061ED6E64300CC62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71EA12071ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EA12081ED6E64300CC62A5 /* Debug */,
+				71EA12091ED6E64300CC62A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71EA11CC1ED6E64200CC62A5 /* Project object */;
+}
