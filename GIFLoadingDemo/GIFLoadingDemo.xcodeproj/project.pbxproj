@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22C25889B83DD5907CD99D3B /* Pods_GIFLoadingDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E7EF39CF2C82452B8D4ED1 /* Pods_GIFLoadingDemoUITests.framework */; };
 		711712621ED7CA1600148B7F /* UIImage+GIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 711712611ED7CA1600148B7F /* UIImage+GIFImage.m */; };
 		711712651ED7CC5800148B7F /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 711712631ED7CC5800148B7F /* loading.gif */; };
 		711712661ED7CC5800148B7F /* loading2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 711712641ED7CC5800148B7F /* loading2.gif */; };
@@ -17,28 +16,10 @@
 		71EA11E21ED6E64200CC62A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EA11E01ED6E64200CC62A5 /* Main.storyboard */; };
 		71EA11E41ED6E64200CC62A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EA11E31ED6E64200CC62A5 /* Assets.xcassets */; };
 		71EA11E71ED6E64200CC62A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EA11E51ED6E64200CC62A5 /* LaunchScreen.storyboard */; };
-		71EA11F21ED6E64300CC62A5 /* GIFLoadingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA11F11ED6E64300CC62A5 /* GIFLoadingDemoTests.m */; };
-		71EA11FD1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EA11FC1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m */; };
+		84E213432139280B00A7F8BA /* donghua1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E213412139280B00A7F8BA /* donghua1.png */; };
+		84E213442139280B00A7F8BA /* donghua2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E213422139280B00A7F8BA /* donghua2.png */; };
 		9BE8904EF4315F04FA1F116F /* Pods_GIFLoadingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF2CB71B0A21D968BEFCF7B /* Pods_GIFLoadingDemo.framework */; };
-		D15CAFFA9DAB3EB87E77ACBE /* Pods_GIFLoadingDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8FA8C689CC74637C3EB85F /* Pods_GIFLoadingDemoTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		71EA11EE1ED6E64300CC62A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71EA11CC1ED6E64200CC62A5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71EA11D31ED6E64200CC62A5;
-			remoteInfo = GIFLoadingDemo;
-		};
-		71EA11F91ED6E64300CC62A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71EA11CC1ED6E64200CC62A5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 71EA11D31ED6E64200CC62A5;
-			remoteInfo = GIFLoadingDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		046AEEDC4F634E8D4E412241 /* Pods-GIFLoadingDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,12 +38,8 @@
 		71EA11E31ED6E64200CC62A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71EA11E61ED6E64200CC62A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71EA11E81ED6E64200CC62A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71EA11ED1ED6E64300CC62A5 /* GIFLoadingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFLoadingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71EA11F11ED6E64300CC62A5 /* GIFLoadingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFLoadingDemoTests.m; sourceTree = "<group>"; };
-		71EA11F31ED6E64300CC62A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71EA11F81ED6E64300CC62A5 /* GIFLoadingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIFLoadingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71EA11FC1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIFLoadingDemoUITests.m; sourceTree = "<group>"; };
-		71EA11FE1ED6E64300CC62A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E213412139280B00A7F8BA /* donghua1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donghua1.png; sourceTree = "<group>"; };
+		84E213422139280B00A7F8BA /* donghua2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donghua2.png; sourceTree = "<group>"; };
 		8AF2CB71B0A21D968BEFCF7B /* Pods_GIFLoadingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIFLoadingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5910D1FF5915A03AB765EB /* Pods-GIFLoadingDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AFE7947A3A6E2F4A0D4E6E7C /* Pods-GIFLoadingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIFLoadingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIFLoadingDemo/Pods-GIFLoadingDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,22 +56,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE8904EF4315F04FA1F116F /* Pods_GIFLoadingDemo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71EA11EA1ED6E64300CC62A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D15CAFFA9DAB3EB87E77ACBE /* Pods_GIFLoadingDemoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71EA11F51ED6E64300CC62A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22C25889B83DD5907CD99D3B /* Pods_GIFLoadingDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				71EA11D61ED6E64200CC62A5 /* GIFLoadingDemo */,
-				71EA11F01ED6E64300CC62A5 /* GIFLoadingDemoTests */,
-				71EA11FB1ED6E64300CC62A5 /* GIFLoadingDemoUITests */,
 				71EA11D51ED6E64200CC62A5 /* Products */,
 				D3DFB69FFD16D278166FC969 /* Pods */,
 				BB573803D525938CB3585959 /* Frameworks */,
@@ -127,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				71EA11D41ED6E64200CC62A5 /* GIFLoadingDemo.app */,
-				71EA11ED1ED6E64300CC62A5 /* GIFLoadingDemoTests.xctest */,
-				71EA11F81ED6E64300CC62A5 /* GIFLoadingDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +107,8 @@
 		71EA11D71ED6E64200CC62A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E213412139280B00A7F8BA /* donghua1.png */,
+				84E213422139280B00A7F8BA /* donghua2.png */,
 				711712631ED7CC5800148B7F /* loading.gif */,
 				711712641ED7CC5800148B7F /* loading2.gif */,
 				71EA11E31ED6E64200CC62A5 /* Assets.xcassets */,
@@ -158,24 +117,6 @@
 				71EA11D81ED6E64200CC62A5 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		71EA11F01ED6E64300CC62A5 /* GIFLoadingDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				71EA11F11ED6E64300CC62A5 /* GIFLoadingDemoTests.m */,
-				71EA11F31ED6E64300CC62A5 /* Info.plist */,
-			);
-			path = GIFLoadingDemoTests;
-			sourceTree = "<group>";
-		};
-		71EA11FB1ED6E64300CC62A5 /* GIFLoadingDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				71EA11FC1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m */,
-				71EA11FE1ED6E64300CC62A5 /* Info.plist */,
-			);
-			path = GIFLoadingDemoUITests;
 			sourceTree = "<group>";
 		};
 		BB573803D525938CB3585959 /* Frameworks */ = {
@@ -224,48 +165,6 @@
 			productReference = 71EA11D41ED6E64200CC62A5 /* GIFLoadingDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		71EA11EC1ED6E64300CC62A5 /* GIFLoadingDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71EA12041ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoTests" */;
-			buildPhases = (
-				BDD649E8081581CF8F3BE600 /* [CP] Check Pods Manifest.lock */,
-				71EA11E91ED6E64300CC62A5 /* Sources */,
-				71EA11EA1ED6E64300CC62A5 /* Frameworks */,
-				71EA11EB1ED6E64300CC62A5 /* Resources */,
-				1DD943F7545598603C5DEBA4 /* [CP] Embed Pods Frameworks */,
-				430305DA6610BD7E4042574A /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71EA11EF1ED6E64300CC62A5 /* PBXTargetDependency */,
-			);
-			name = GIFLoadingDemoTests;
-			productName = GIFLoadingDemoTests;
-			productReference = 71EA11ED1ED6E64300CC62A5 /* GIFLoadingDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		71EA11F71ED6E64300CC62A5 /* GIFLoadingDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 71EA12071ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoUITests" */;
-			buildPhases = (
-				F151ECA469D6AEB7D6AE6C7A /* [CP] Check Pods Manifest.lock */,
-				71EA11F41ED6E64300CC62A5 /* Sources */,
-				71EA11F51ED6E64300CC62A5 /* Frameworks */,
-				71EA11F61ED6E64300CC62A5 /* Resources */,
-				1EFAF3F4C55A0D871D11F868 /* [CP] Embed Pods Frameworks */,
-				4A199CCA97BAC0CA43CC97B0 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71EA11FA1ED6E64300CC62A5 /* PBXTargetDependency */,
-			);
-			name = GIFLoadingDemoUITests;
-			productName = GIFLoadingDemoUITests;
-			productReference = 71EA11F81ED6E64300CC62A5 /* GIFLoadingDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -279,18 +178,6 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = W8RTX3KJ4E;
 						ProvisioningStyle = Automatic;
-					};
-					71EA11EC1ED6E64300CC62A5 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = W8RTX3KJ4E;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 71EA11D31ED6E64200CC62A5;
-					};
-					71EA11F71ED6E64300CC62A5 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = W8RTX3KJ4E;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 71EA11D31ED6E64200CC62A5;
 					};
 				};
 			};
@@ -308,8 +195,6 @@
 			projectRoot = "";
 			targets = (
 				71EA11D31ED6E64200CC62A5 /* GIFLoadingDemo */,
-				71EA11EC1ED6E64300CC62A5 /* GIFLoadingDemoTests */,
-				71EA11F71ED6E64300CC62A5 /* GIFLoadingDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,72 +208,15 @@
 				711712651ED7CC5800148B7F /* loading.gif in Resources */,
 				71EA11E41ED6E64200CC62A5 /* Assets.xcassets in Resources */,
 				711712661ED7CC5800148B7F /* loading2.gif in Resources */,
+				84E213432139280B00A7F8BA /* donghua1.png in Resources */,
+				84E213442139280B00A7F8BA /* donghua2.png in Resources */,
 				71EA11E21ED6E64200CC62A5 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71EA11EB1ED6E64300CC62A5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71EA11F61ED6E64300CC62A5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DD943F7545598603C5DEBA4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoTests/Pods-GIFLoadingDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1EFAF3F4C55A0D871D11F868 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		430305DA6610BD7E4042574A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoTests/Pods-GIFLoadingDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4425501AC3FECBA52E377776 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,37 +232,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemo/Pods-GIFLoadingDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4A199CCA97BAC0CA43CC97B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemoUITests/Pods-GIFLoadingDemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		64AF72C7F978DD41BF52C75E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BDD649E8081581CF8F3BE600 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -464,21 +262,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIFLoadingDemo/Pods-GIFLoadingDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F151ECA469D6AEB7D6AE6C7A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -493,36 +276,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71EA11E91ED6E64300CC62A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71EA11F21ED6E64300CC62A5 /* GIFLoadingDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		71EA11F41ED6E64300CC62A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71EA11FD1ED6E64300CC62A5 /* GIFLoadingDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		71EA11EF1ED6E64300CC62A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71EA11D31ED6E64200CC62A5 /* GIFLoadingDemo */;
-			targetProxy = 71EA11EE1ED6E64300CC62A5 /* PBXContainerItemProxy */;
-		};
-		71EA11FA1ED6E64300CC62A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 71EA11D31ED6E64200CC62A5 /* GIFLoadingDemo */;
-			targetProxy = 71EA11F91ED6E64300CC62A5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		71EA11E01ED6E64200CC62A5 /* Main.storyboard */ = {
@@ -664,60 +418,6 @@
 			};
 			name = Release;
 		};
-		71EA12051ED6E64300CC62A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2CE1235174A73320C276EA4 /* Pods-GIFLoadingDemoTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = W8RTX3KJ4E;
-				INFOPLIST_FILE = GIFLoadingDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFLoadingDemo.app/GIFLoadingDemo";
-			};
-			name = Debug;
-		};
-		71EA12061ED6E64300CC62A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B11726296BBDE16E2790B99B /* Pods-GIFLoadingDemoTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = W8RTX3KJ4E;
-				INFOPLIST_FILE = GIFLoadingDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIFLoadingDemo.app/GIFLoadingDemo";
-			};
-			name = Release;
-		};
-		71EA12081ED6E64300CC62A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 046AEEDC4F634E8D4E412241 /* Pods-GIFLoadingDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = W8RTX3KJ4E;
-				INFOPLIST_FILE = GIFLoadingDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GIFLoadingDemo;
-			};
-			name = Debug;
-		};
-		71EA12091ED6E64300CC62A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C5910D1FF5915A03AB765EB /* Pods-GIFLoadingDemoUITests.release.xcconfig */;
-			buildSettings = {
-				DEVELOPMENT_TEAM = W8RTX3KJ4E;
-				INFOPLIST_FILE = GIFLoadingDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.worldunion.GIFLoadingDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = GIFLoadingDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -735,24 +435,6 @@
 			buildConfigurations = (
 				71EA12021ED6E64300CC62A5 /* Debug */,
 				71EA12031ED6E64300CC62A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71EA12041ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71EA12051ED6E64300CC62A5 /* Debug */,
-				71EA12061ED6E64300CC62A5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		71EA12071ED6E64300CC62A5 /* Build configuration list for PBXNativeTarget "GIFLoadingDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71EA12081ED6E64300CC62A5 /* Debug */,
-				71EA12091ED6E64300CC62A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
